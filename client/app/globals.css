@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.scrollbar-hide::-webkit-scrollbar {
+    display: none; /* Hide scrollbar for WebKit browsers */
+  }
+  .scrollbar-hide {
+    scrollbar-width: none; /* Hide scrollbar for Firefox */
+  }
+
+  
+
+  @media(min-width:1024px){
+    .nav-item{
+      display: block;
+    }
+  } 
+  @media(max-width:1023px){
+    .nav-item{
+      display: none;
+    }
+    .navbar-item{
+      display: flex;
+      flex-direction: column;
+      gap:35px;
+      color: white;
+      justify-content: flex-start;
+      align-items: flex-start;
+      font-size: 15px;
+  
+    }
+  } 
+
+
+
+
+  
