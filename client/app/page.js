@@ -8,9 +8,9 @@ const Paragon = () => {
   // Initialize AOS on component mount
   useEffect(() => {
     AOS.init({
-      duration: 1000,  // Animation duration
-      once: true,      // Trigger animation only once
-      offset: 100,     // Trigger animation once the element is 100px from the viewport
+      duration: 1000, 
+      once: true,     
+      offset: 100,     
     });
   }, []);
 
