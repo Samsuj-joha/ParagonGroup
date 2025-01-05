@@ -30,9 +30,11 @@ const BistroHeader = () => {
           </div>
 
           {/* Navbar and SearchMenu for Large Screens */}
-          <div className="nav-item lg:flex items-center space-x-6">
+          <div className="hidden lg:flex flex-1 justify-center items-center relative">
             <Navbar />
-            <SearchMenu />
+            <div className="absolute right-0">
+              <SearchMenu />
+            </div>
           </div>
 
           {/* Hamburger Menu for Mobile */}

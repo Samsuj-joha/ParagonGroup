@@ -3,7 +3,7 @@ import "./globals.css";
 import Footer from "@/layout/footer/page";
 import ScrollToTopButton from "@/layout/scroll/page";
 import SocialMediaIcons from "@/layout/socail/page";
-
+// import Header from "@/layout/header/page";
 // Importing Google Font
 import Head from "next/head";
 

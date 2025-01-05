@@ -62,7 +62,7 @@ const Navbar = () => {
 
   return (
     <nav className="p-4">
-      <ul className="navbar-item flex lg:space-x-5 text-[#0e2b49]">
+      <ul className="navbar-item flex lg:space-x-5 text-[#0e2b49] font-semibold">
         <li>
           <Link
             href="/pages/home"
